@@ -24,7 +24,7 @@ const interviewSchema = new mongoose.Schema({
     },
     experience: {
         type: String,
-        reuqired: true
+        required: true
     },
     mode: {
         type: String,
